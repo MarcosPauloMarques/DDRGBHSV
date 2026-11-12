@@ -6,9 +6,15 @@ Classifica cada pixel e pinta o resultado:
     BRANCO(255, 255, 255)   -> nuvens
 
 Exemplos de uso no console:
-    python DDRGBHSV.py imagem.jpg
+    python DDRGBHSV.py imagem.jpg 
     python DDRGBHSV.py pasta_com_imagens/
     python DDRGBHSV.py a.jpg b.png "cenas/*.tif"
+
+	OU
+
+    py DDRGBHSV.py imagem.jpg 
+    py DDRGBHSV.py pasta_com_imagens/
+    py DDRGBHSV.py a.jpg b.png "cenas/*.tif"
 
 Comando para instalar Dependências :
     pip install numpy pillow scipy matplotlib rasterio
